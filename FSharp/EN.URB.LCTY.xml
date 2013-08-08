@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Cherry pick to include value with and without value for different types of entry -->
+<wb:data xmlns:wb="http://www.worldbank.org" page="1" pages="123" per_page="2" total="246">
+    <wb:data>
+        <wb:indicator id="EN.URB.LCTY">Population in largest city</wb:indicator>
+        <wb:country id="1A">Arab World</wb:country>
+        <wb:date>2000</wb:date>
+        <wb:value/>
+        <wb:decimal>0</wb:decimal>
+    </wb:data>
+    <wb:data>
+        <wb:indicator id="EN.URB.LCTY">Population in largest city</wb:indicator>
+        <wb:country id="AZ">Azerbaijan</wb:country>
+        <wb:date>2000</wb:date>
+        <wb:value>1805977</wb:value>
+        <wb:decimal>0</wb:decimal>
+    </wb:data>
+</wb:data>

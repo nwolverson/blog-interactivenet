@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{436CCAA8-E39B-40F5-8974-4970F31737A6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IntFs", "FSharp\IntFs.fsproj", "{F80BF654-E3F0-4520-B742-29457107E933}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IntPy", "Python\IntPy.pyproj", "{EE69AC0D-B026-4B02-A311-C6D3D82CB8F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B796FC6-B53A-4F08-9DA9-0A37CA551DF4}"
+	ProjectSection(SolutionItems) = preProject
+		PowerShell\IntPS.ps1 = PowerShell\IntPS.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80BF654-E3F0-4520-B742-29457107E933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80BF654-E3F0-4520-B742-29457107E933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80BF654-E3F0-4520-B742-29457107E933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80BF654-E3F0-4520-B742-29457107E933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE69AC0D-B026-4B02-A311-C6D3D82CB8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE69AC0D-B026-4B02-A311-C6D3D82CB8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE69AC0D-B026-4B02-A311-C6D3D82CB8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE69AC0D-B026-4B02-A311-C6D3D82CB8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
