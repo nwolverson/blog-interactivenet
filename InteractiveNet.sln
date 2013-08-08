@@ -14,8 +14,12 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IntPy", "Python\IntPy.pypro
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B796FC6-B53A-4F08-9DA9-0A37CA551DF4}"
 	ProjectSection(SolutionItems) = preProject
+		LinqPad\IntCsLinqPad.linq = LinqPad\IntCsLinqPad.linq
+		LinqPad\IntFsLinqPad.linq = LinqPad\IntFsLinqPad.linq
 		PowerShell\IntPS.ps1 = PowerShell\IntPS.ps1
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntCs", "CSharp\IntCs.csproj", "{33B8EFFC-77C5-40B6-9EA2-8717C480F820}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 		{EE69AC0D-B026-4B02-A311-C6D3D82CB8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE69AC0D-B026-4B02-A311-C6D3D82CB8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE69AC0D-B026-4B02-A311-C6D3D82CB8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B8EFFC-77C5-40B6-9EA2-8717C480F820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B8EFFC-77C5-40B6-9EA2-8717C480F820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B8EFFC-77C5-40B6-9EA2-8717C480F820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B8EFFC-77C5-40B6-9EA2-8717C480F820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
